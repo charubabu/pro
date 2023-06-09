@@ -1,0 +1,23 @@
+/* .table{
+    width: 80%;
+    margin: 0 auto;
+} */
+
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: larger;
+  }
+
+  .card-header {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+  }
+
+  .card-body {
+    padding: 10px;
+  }

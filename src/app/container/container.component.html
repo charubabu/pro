@@ -1,0 +1,23 @@
+ <div class="container">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let x of gdata; let i = index">
+        <div class="card">
+          <div class="card-header">{{x['Employee ID']}}</div>
+          <div class="card-body">
+            <p class="card-title">{{ x['Employee Name'] }}</p>
+            <p class="card-text"><strong>Email ID: </strong>{{ x['Mail Id'] }}</p>
+            <!-- <a [routerLink]="'/details'" class="btn btn-primary" (click)="">Link</a>-->
+              <button (click)="openpop(x['Employee ID'])" class="btn btn-primary" >Employee details</button> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
